@@ -77,7 +77,7 @@ body {
     ),
     url("../images/people-office.jpg");
   padding: 188px 0 188px;
-   background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
@@ -387,10 +387,12 @@ img {
   max-width: 100%;
   height: auto;
 }
-.icons-about-us{
+.icons-about-us {
   width: 264px;
   height: 112px;
   flex-shrink: 0;
   border-radius: 4px;
   background-color: var(--CLOUD);
+}
+.icon-strategy {
 }
