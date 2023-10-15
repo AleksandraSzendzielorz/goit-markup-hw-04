@@ -421,7 +421,7 @@ img {
   fill: var(--CLOUD);
 }
 .customers {
-  background-color: var(--CLOUD);
+  padding: 120px 156px 120px 156px;
 }
 
 .customers-list {
