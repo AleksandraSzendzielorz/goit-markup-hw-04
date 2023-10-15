@@ -184,6 +184,10 @@ body {
   background-color: var(--WHITE);
   border-radius: 0 0 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
+  background: var(--WHITE);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .footer {
   background-color: var(--NAVY-BLUE);
@@ -416,6 +420,9 @@ img {
 .social-svg {
   fill: var(--CLOUD);
 }
+.customers {
+  background-color: var(--CLOUD);
+}
 
 .customers-list {
   display: flex;
@@ -423,7 +430,8 @@ img {
 }
 .customers-logo {
   display: flex;
-}
-.customers {
-  background-color: var(--CLOUD);
+  width: 168px;
+  height: 88px;
+  border-radius: 4px;
+  border: 1px var(--LIGHT-SLATE) solid;
 }
