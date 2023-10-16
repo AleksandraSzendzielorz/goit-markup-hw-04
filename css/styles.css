@@ -39,7 +39,7 @@ body {
 }
 .list .link {
   color: var(--NAVY-BLUE);
-  line-height: 1.5;
+  line-height: 1.55;
   letter-spacing: 0.02em;
 }
 .contact-list .contacts {
@@ -81,7 +81,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 100%;
   padding: 188px 0;
 }
 
@@ -407,6 +407,8 @@ img {
   height: 40px;
 }
 .social-link {
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   background-color: var(--IRIS);
