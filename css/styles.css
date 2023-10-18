@@ -519,3 +519,7 @@ img {
 .sm-footer-icons {
   fill: var(--CLOUD);
 }
+.social-link-footer:hover,
+.social-link-footer:focus {
+  background-color: var(--GREEN);
+}
