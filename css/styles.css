@@ -205,14 +205,12 @@ body {
   text-transform: uppercase;
 }
 
-.footer .footer-paragraph {
-  font-weight: 400;
+.footer-paragraph {
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
   font-size: 16px;
-}
-.footer-paragraph {
-  color: var(--cloud);
+  color: var(--CLOUD);
   letter-spacing: 0.02em;
   line-height: 1.5;
   max-width: 264px;
@@ -498,6 +496,8 @@ img {
 }
 .logo-svg {
   fill: currentColor;
+  width: 168px;
+  height: 88px;
 }
 .footer-container {
   align-items: baseline;
