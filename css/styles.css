@@ -519,6 +519,15 @@ img {
 .sm-footer-icons {
   fill: var(--CLOUD);
 }
+.social-link-footer {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: var(--IRIS);
+  border-radius: 50%;
+  justify-content: center;
+}
 .social-link-footer:hover,
 .social-link-footer:focus {
   background-color: var(--GREEN);
